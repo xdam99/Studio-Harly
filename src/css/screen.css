@@ -1,0 +1,231 @@
+@media screen and (max-width: 1440px){
+    .wedding__content__img {
+        height: 80% !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .header nav a {
+        font-size: 1rem;
+    }
+    .desc__content__img {
+        width: 50vh;
+    }
+    .desc__content__txt {
+        height: 50%;
+    }
+    .wedding__content__img {
+        width: 50vh !important;
+        height: 35vw !important;
+    }
+    .DJ__content__img {
+        width: 50vh !important;
+        height: 35vw !important;
+    }
+    .videos__content__img {
+        width: 50vh !important;
+        height: 35vw !important;
+    }
+    .association__content__txt p {
+        font-size: 1rem;
+        padding: 15px;
+    }
+    .association__content__img {
+        width: 500px;
+        height: 500px;
+    }
+    .contact h1 {
+        font-size: 1.25rem;
+    }
+    .form__domaines span {
+        font-size: 0.75rem !important;
+    }
+    .form__mariage {
+        font-size: 0.75rem !important;
+    }
+    .footer__droits p {
+        font-size: 1rem;
+    }
+    .menu__content {
+        width: 100%;
+        height: 80%;
+    }
+    .cards p {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header nav a {
+        font-size: 0.75rem;
+    }
+    .desc__content {
+        flex-direction: column-reverse;
+    }
+    .desc__content__img {
+        width: 60vh;
+        height: 50vw;
+    }
+    .desc__content__txt {
+        width: 90%;
+        height: 30%;
+    }
+    .desc__content__txt h1 {
+        font-size: 1.5rem;
+    }
+    .btnInfos {
+        width: 30%;
+    }
+    .wedding {
+        margin-top: 200px;
+        height: 1000px;
+        padding: 0;
+    }
+    .wedding__content {
+        flex-direction: column;
+    }
+    .wedding__content__img {
+        width: 60vh !important;
+        height: 60vw !important;
+    }
+    .wedding__content__txt {
+        width: 90%;
+        height: 30%;
+    }
+    .wedding__content__txt h1 {
+        font-size: 1.5rem;
+    }
+    .DJ {
+        margin-top: 200px;
+        height: 1000px;
+        padding: 0;
+    }
+    .DJ__content {
+        flex-direction: column-reverse;
+    }
+    .DJ__content__img {
+        width: 60vh !important;
+        height: 60vw !important;
+    }
+    .DJ__content__txt {
+        width: 90%;
+        height: 30%;
+    }
+    .DJ__content__txt h1 {
+        font-size: 1.5rem;
+    }
+    .videos {
+        margin-top: 200px;
+        height: 1000px;
+        padding: 0;
+    }
+    .videos__content {
+        flex-direction: column;
+    }
+    .videos__content__img {
+        width: 60vh !important;
+        height: 60vw !important;
+    }
+    .videos__content__txt {
+        width: 90%;
+        height: 30%;
+    }
+    .videos__content__txt h1 {
+        font-size: 1.5rem;
+    }
+    .association__content {
+        flex-direction: column;
+    }
+    .association__content__txt {
+        width: 80%;
+    }
+    .association__content__txt p {
+        font-size: 1rem;
+    }
+    .association__content__img {
+        width: 100%;
+        height: 20%;
+    }
+    .contact {
+        height: 1400px;
+    }
+    .contact h1 {
+        font-size: 1.25rem;
+    }
+    .contact-title {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 2rem !important;
+    }
+    .contact__content {
+        width: 90%;
+        flex-direction: column;
+    }
+    .contact__content__form {
+        width: 100%;
+    }
+    .contact__content__infos {
+        width: 100%;
+    }
+    .contact__content__infos__txt {
+        padding: 0;
+    }
+    .contact__content__infos__txt h1, .contact__content__infos__txt p {
+        text-align: center;
+    }
+    .form__domaines span {
+        font-size: 0.75rem !important;
+    }
+    .form__mariage {
+        font-size: 0.75rem !important;
+    }
+    .footer__droits p {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 425px){
+    .banner__logo {
+        background-size: 100%;
+        width: 90%;
+        height: 50%;
+    }
+    .header {
+        height: 150px;
+    }
+    .header__nav {
+        flex-direction: column;
+    }
+    .header__nav a {
+        font-size: 1rem !important;
+    }
+    .desc {
+        margin-top: 100px;
+    }
+    .wedding {
+        height: 700px;
+    }
+    .DJ {
+        margin-top: 100px;
+        height: 700px;
+    }
+    .videos {
+        margin-top: 0px;
+        height: 700px;
+    }
+    .menu {
+        display: none;
+    }
+    .footer__socials img {
+        width: 40px;
+        height: 40px;
+    }
+    .cards:hover {
+        width: 100%;
+        height: 100%;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .footer__droits {
+        width: 90%;
+    }
+}
